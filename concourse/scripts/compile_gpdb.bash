@@ -206,5 +206,5 @@ function _main() {
 }
 
 # _main "$@"
-yum install tree
+yum -y install tree
 tree ../
