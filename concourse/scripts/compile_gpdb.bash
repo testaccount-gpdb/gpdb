@@ -205,6 +205,4 @@ function _main() {
   export_gpdb_win32_ccl
 }
 
-# _main "$@"
-yum -y install tree
-tree ../
+_main "$@"
